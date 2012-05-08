@@ -1,4 +1,5 @@
 import sys
+import math
 
 x = []
 for line in open(sys.argv[1]):
@@ -12,6 +13,8 @@ for num in x:
    diff = num - avg
    diffs.append(diff**2)
 
+stddev = math.sqrt(sum(diffs) / float(len(x)))
+
 print 'average is', sum(x) / float(len(x))
 print 'sumsqdiffs is', sum(diffs)
-# foo!
+print 'stddev is', stddev
