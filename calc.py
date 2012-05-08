@@ -13,4 +13,4 @@ for num in x:
    diffs.append(diff**2)
 
 print 'average is', sum(x) / float(len(x))
-#print 'sumsqdiffs is', sum(diffs)
+print 'sumsqdiffs is', sum(diffs)
