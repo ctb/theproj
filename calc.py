@@ -14,3 +14,4 @@ for num in x:
 
 print 'average is', sum(x) / float(len(x))
 print 'sumsqdiffs is', sum(diffs)
+# foo!
