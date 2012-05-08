@@ -15,6 +15,6 @@ for num in x:
 
 stddev = math.sqrt(sum(diffs) / float(len(x)))
 
-print 'average is', sum(x) / float(len(x))
+print 'the average is', sum(x) / float(len(x))
 print 'sumsqdiffs is', sum(diffs)
 print 'stddev is', stddev
